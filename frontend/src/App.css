@@ -1,0 +1,28 @@
+.appHeader {
+  background: #2d3e50;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+.tabButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.tabButtons input[type="button"] {
+  background: #2d3e50;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.tabButtons input[type="button"]:hover {
+  background: #1a2533;
+}

@@ -1,0 +1,25 @@
+.detailsContainer {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem;
+}
+.detailsContainer h2 {
+  color: #2d3e50;
+  margin-bottom: 1rem;
+}
+.detailsContainer p, .detailsContainer h4 {
+  margin: 0.5rem 0;
+}
+.detailsContainer pre {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+.errorMessage {
+  color: #d32f2f;
+  margin-top: 1rem;
+}
