@@ -53,7 +53,7 @@ os.makedirs(UPLOAD_DIR,exist_ok=True)
 
 
 # Check for GEMINI_API_KEY
-GEMINI_API_KEY = "AIzaSyD5RqBLvSwh5913uSmfo_MEtiV8UeS6nBA"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     logging.error("GEMINI_API_KEY environment variable not set. Please set it before running the server.")
     raise RuntimeError("GEMINI_API_KEY environment variable not set.")
